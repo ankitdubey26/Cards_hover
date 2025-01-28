@@ -1,0 +1,159 @@
+body {
+    background-color: rgb(239, 223, 190);
+    margin-top: 100px;
+}
+.section{
+    display: flex;
+    justify-content: center;
+}
+header h1 {
+    text-align: center;
+}
+
+header h4 {
+    text-align: center;
+}
+
+.box {
+margin: 0px 10px;
+    width: 250px;
+    height: 340px;
+    background-color: rgb(238, 234, 231);
+    border-radius: 10px;
+    /* position: relative; */
+}
+
+.box-top-image {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    background-image: url("https://media.istockphoto.com/id/489344500/photo/yoga-at-humayuns-tomb-delhi-india-cngltrv1109.webp?a=1&b=1&s=612x612&w=0&k=20&c=v-9FnroTXoXmmTE8BUUQjzLm9DZU7eoA0gfZnV4-pkc=");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 130px;
+}
+
+#card:hover .box-top-image {
+    height: 295px;
+}
+
+.box-round-image {
+    text-align: center;
+}
+
+.box-round-image img {
+    height: 90px;
+    width: 90px;
+    border-radius: 50px;
+    position: relative;
+    bottom: 40px;
+}
+
+#card:hover .box-round-image img {
+    bottom: 270px;
+    position: relative;
+}
+
+.discription {
+    text-align: center;
+}
+
+#card:hover .discription {
+    display: none;
+}
+
+.discription p {
+    position: relative;
+    margin: 6px;
+    bottom: 50px;
+}
+
+
+
+.name {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.add {
+    /* font-weight: bold; */
+    font-size: 13px;
+}
+
+.add i {
+    color: rgb(66, 195, 66);
+}
+
+.disc {
+    /* font-weight: bold; */
+    font-size: 12px;
+}
+
+
+
+.button {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 60px;
+    /* border-bottom: 1px solid rgba(149, 119, 119, 0.518); */
+}
+
+#card:hover .button {
+    display: none;
+}
+
+.button>p>a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid rgb(234, 203, 32);
+    border-radius: 4px;
+    padding: 1px 5px;
+}
+
+.footer {
+    position: relative;
+    bottom: 62px;
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid rgba(0, 0, 0, 0.377);
+    padding: 0px 10px;
+    font-size: 14px;
+}
+
+#card:hover .footer {
+    bottom: 93.5px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: rgb(66, 195, 66);
+}
+
+
+.rate i {
+    color: rgb(232, 199, 11);
+}
+
+.after-hover {
+    display: none;
+    text-align: center;
+    width: 150px;
+    margin: auto;
+    position: relative;
+    bottom: 300px;
+}
+
+#card:hover .after-hover{
+    display: block;
+
+}
+.after-hover p {
+    border: 2px solid goldenrod;
+    background-color: aliceblue;
+}
+
+.after-hover a {
+    text-decoration: none;
+    color: black;
+}
